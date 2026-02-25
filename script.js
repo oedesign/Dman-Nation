@@ -74,3 +74,7 @@ if (contactForm) {
     window.open(`https://wa.me/2348000000000?text=${composedMessage}`, '_blank', 'noopener');
   });
 }
+
+
+const currentYear = document.querySelector('#currentYear');
+if (currentYear) currentYear.textContent = new Date().getFullYear();
