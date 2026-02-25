@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | DMAN NATION</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">DMAN NATION</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">☰</button>
+      <nav id="mobile-menu" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="btn btn-outline" href="services.html">Explore Services</a>
+        <a class="btn btn-primary" href="contact.html#whatsapp-directory">Talk to an Agent</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Contact DMAN NATION</h1>
+    <p>Choose your service and message us instantly.</p>
+
+    <section id="whatsapp-directory" class="section">
+      <h2>WhatsApp Directory</h2>
+      <div class="grid cards-3">
+        <a class="card link-card" target="_blank" rel="noopener" href="https://wa.me/2348000000000?text=Hello%20DMAN%20NATION%2C%20I%20need%20help%20with%20Study%20Abroad.">Study Abroad</a>
+        <a class="card link-card" target="_blank" rel="noopener" href="https://wa.me/2348000000000?text=Hello%20DMAN%20NATION%2C%20I%20need%20help%20with%20Visa%20Processing.">Visa Processing</a>
+        <a class="card link-card" target="_blank" rel="noopener" href="https://wa.me/2348000000000?text=Hello%20DMAN%20NATION%2C%20I%20need%20help%20with%20Flights.">Flights</a>
+        <a class="card link-card" target="_blank" rel="noopener" href="https://wa.me/2348000000000?text=Hello%20DMAN%20NATION%2C%20I%20need%20help%20with%20Holiday%20Packages.">Holiday Packages</a>
+        <a class="card link-card" target="_blank" rel="noopener" href="https://wa.me/2348000000000?text=Hello%20DMAN%20NATION%2C%20I%20need%20help%20with%20Work%20Abroad.">Work Abroad</a>
+        <a class="card link-card" target="_blank" rel="noopener" href="https://wa.me/2348000000000?text=Hello%20DMAN%20NATION%2C%20I%20need%20help%20with%20Add-on%20Services.">Add-ons</a>
+      </div>
+    </section>
+
+    <section id="inquiry-form" class="section">
+      <h2>Inquiry Form</h2>
+      <form id="contactForm" class="card form-card" novalidate>
+        <label>Name <input type="text" id="name" required /></label>
+        <label>Phone <input type="tel" id="phone" required /></label>
+        <label>Service
+          <select id="service" required>
+            <option value="">Select service</option>
+            <option>Study Abroad</option>
+            <option>Visa Processing</option>
+            <option>Flights</option>
+            <option>Holiday Packages</option>
+            <option>Work Abroad</option>
+            <option>Add-ons</option>
+          </select>
+        </label>
+        <label>Message <textarea id="message" rows="4" required></textarea></label>
+        <p id="formFeedback" class="feedback" role="status" aria-live="polite"></p>
+        <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h3>DMAN NATION</h3>
+        <p>Your trusted travel partner for study, visa, flights, holidays, and work-abroad support.</p>
+      </section>
+      <section>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Contact</h4>
+        <p><a href="https://wa.me/2348000000000" target="_blank" rel="noopener">WhatsApp: +234 800 000 0000</a></p>
+        <p><a href="mailto:hello@dmannation.com">hello@dmannation.com</a></p>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© <span id="currentYear"></span> DMAN NATION. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
