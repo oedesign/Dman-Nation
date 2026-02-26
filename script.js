@@ -71,7 +71,7 @@ if (contactForm) {
     const composedMessage = `Hello DMAN NATION,%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AService: ${encodeURIComponent(service)}%0AMessage: ${encodeURIComponent(message)}`;
     feedback.textContent = 'Opening WhatsApp...';
     feedback.className = 'feedback success';
-    window.open(`https://wa.me/2348000000000?text=${composedMessage}`, '_blank', 'noopener');
+    window.open(`https://wa.me/+23059380834?text=${composedMessage}`, '_blank', 'noopener');
   });
 }
 
